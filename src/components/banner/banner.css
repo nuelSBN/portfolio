@@ -1,0 +1,38 @@
+.banner {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.bannerText {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+
+.top {
+  font-weight: 600;
+}
+
+.bottom {
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .bannerText {
+    padding: 10px;
+    width: 100%;
+  }
+}
